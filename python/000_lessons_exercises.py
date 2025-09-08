@@ -1,5 +1,6 @@
 # Exercises
 
+
 print("=============================================================================")
 # Lesson 001 Exercise 1:
 # Create variables for your name, age, height, and favorite subject.
@@ -10,6 +11,7 @@ age = 20
 height = 1.87
 favorite_lesson = "Math"
 print(f"My Name is {name}, I am {age} years old, {height} meters tall and my favorite subject is {favorite_lesson}")
+
 
 
 print("=============================================================================")
@@ -28,6 +30,7 @@ print("3.Last 3 letters: ", word[-3:])
 print("4.Reversed: ", word[::-1])
 
 
+
 print("=============================================================================")
 # Lesson 001 Exercise 3:
 # Work with the string: "I love Python programming"
@@ -44,6 +47,7 @@ print("3. Split the sentence into words (list): ", sentence.split())
 print("4. Join the list back into a string with '-' between the words", "-".join(sentence.split()))
 
 
+
 print("=============================================================================")
 # Lesson 001 Exercise 4:
 # Use variables and f-strings
@@ -56,6 +60,7 @@ product = "Laptop"
 price = 999.99
 quantity = 3
 print(f"I bought {quantity} {product}s for a total of {price * quantity:.2f} EUR")
+
 
 
 print("=============================================================================")
@@ -73,6 +78,7 @@ print("2.Remove the spaces on both sides: ", text.strip())
 print("3.Print the text in uppercase: ", text.upper())
 print("4.Print the length of the cleaned text: ", len(text.strip()))
 print(f"5. The word 'Python Basics' has {len(text.strip())} letters")
+
 
 
 print("=============================================================================")
@@ -97,6 +103,7 @@ print(f"5.Does the text start correctly? {result_start}")
 print(f"5.Does the text end correctly? {result_end}")
 
 
+
 print("=============================================================================")
 # Lesson 001 Exercise 7:
 # Work with variables and f-strings
@@ -110,6 +117,7 @@ middle_name = "Can"
 print(f"2.Print 'My name is Sinan Can': My name is {first_name} {middle_name}")
 print(f"3. Print 'My name in uppercase is SINAN CAN': My name in uppercase is {first_name.upper()} {middle_name.upper()}")
 print(f"4. Print 'The initials are S.C.': The initials are {first_name[0]}.{middle_name[0]}.")
+
 
 
 print("=============================================================================")
@@ -134,6 +142,7 @@ print(f"a * b = {a * b}")
 print(f"a / b = {a / b:.2f}")
 
 
+
 print("=============================================================================")
 # Lesson 001 Exercise 9:
 # Combine variables and strings with f-strings
@@ -149,6 +158,7 @@ population = 1_500_000
 print(f"{city} is a city in {country}")
 print(f"It has about {population} people")
 print(f"Population with commas: {population:,}")
+
 
 
 print("=============================================================================")
